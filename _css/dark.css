@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (min-width: 907px){
+    .navbar ul {
+      font-size: 10px;
+    }
+}
+
+body {
+  background-color: #000000;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  z-index: -1;
+
+}
+
+.bg-car {
+  width: 100%;
+
+}
+.navbar {
+  background-color: #ffffffb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: -30px 60px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.ic-darkm {
+  position: absolute;
+  margin-top: -1.5%;
+  margin-left: 2%;
+  width: 79px;
+  height: 80px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 160px;
+  font-size: 20px;
+}
+
+.navbar ul li {
+  margin-left: 45px;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+.navbar .logo {
+  width: 150px;
+  height: auto;
+  margin-left: 65px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.h1-home {
+  color: #000000;
+  background-color: #ffffff85;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.h1-botton {
+  text-align: center;
+  padding: 10px;
+  background-color: red;
+  color: #000000;
+  width: fit-content;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 2%;
+  font-size: 28px;
+  font-family: sans-serif;
+  border-radius: 15px;
+  font-weight: normal;
+  transition: 0.4s;
+}
+
+.h1-botton:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.bg-video {
+  background-color: #201e1e;
+  margin-top: 25%;
+  height: 800px;
+}
+
+.gradient-rb {
+  background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
+  position: absolute;
+  margin: 25%;
+  margin-top: 12%;
+  border-radius: 15px;
+  width: 1000px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+}
+
+.video-fg {
+  width: fit-content;
+  margin-top: 5%;
+  width: 500px;
+  height: 300px;
+}
+
+.bg-encontre {
+  background-color: #000000;
+  margin-top: 0%;
+  height: 800px;
+}
+
+.h1-encontre {
+  padding: 5%;
+  font-family: sans-serif;
+  font-size: 40px;
+  color: white;
+  background-color: #000000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  background-color: #e0c8c86b;
+  display: grid;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 2px;
+  width: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: 0.2s;
+}
+
+.card2 {
+  background-color: #ffffff6b;
+  display: grid;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding-bottom: 2px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+div .card2 {
+  background-color: #141414;
+}
+#car-simples {
+  width: 95px;
+}
+
+.gradient-rb2 {
+  background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
+  position: absolute;
+  margin-top: 12%;
+  width: 100%;
+  height: 500px;
+
+}
+
+#h1-ofertas {
+  position: absolute;
+  text-align: left;
+  margin-top: 25%;
+  margin-left: 50%;
+  color: white;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+#h1-ofertas-btn {
+  position: absolute;
+  text-align: left;
+  margin-top: 28%;
+  margin-left: 50%;
+  padding: 8px;
+  color: #ffffff83;
+  font-family: sans-serif;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#h1-ofertas-btn2 {
+  position: absolute;
+  text-align: left;
+  margin-top: 28%;
+  margin-left: 71.5%;
+  padding: 8px;
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: rgb(29, 192, 91);
+  border-radius: 20px;
+}
+
+.img-email {
+  position: absolute;
+  width: 15%;
+  margin-top: 22%;
+  margin-left: 20%;
+}
+
+footer {
+  background-color: #ffffff;
+   color: #000000; 
+   text-align: left; 
+   padding: 55px;
+   position: absolute;
+   margin-top: 38.3%;
+   width: 94.2%;
+   font-family: sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: #443c3caf;
+  gap: 90px;
+}
+
+footer a:hover {
+  color: red;
+  transition: 0.2s;
+}

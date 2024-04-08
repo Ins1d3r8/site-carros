@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@media (min-width: 907px){
+    .navbar ul {
+      font-size: 10px;
+    }
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 30vh;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  z-index: -1;
+
+}
+
+.bg-car {
+  width: 100%;
+
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000000b3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: -30px 60px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.ic-darkm {
+  position: absolute;
+  margin-top: -1.5%;
+  margin-left: 2%;
+  width: 79px;
+  height: 80px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-right: 160px;
+  font-size: 20px;
+}
+
+.navbar ul li {
+  margin-left: 45px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: red;
+  transition: 0.5s;
+}
+
+.navbar .logo {
+  width: 150px;
+  height: auto;
+  margin-left: 65px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.h1-home {
+  color: white;
+  background-color: #00000085;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.h1-botton {
+  text-align: center;
+  padding: 10px;
+  background-color: red;
+  color: #FFFFFF;
+  width: fit-content;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 2%;
+  font-size: 28px;
+  font-family: sans-serif;
+  border-radius: 15px;
+  font-weight: normal;
+  transition: 0.4s;
+}
+
+.h1-botton:hover {
+  background-color: #000000;
+  cursor: pointer;
+}
+
+.bg-video {
+  background-color: #211e1e;
+  margin-top: 25%;
+  height: 800px;
+}
+
+.gradient-rb {
+  background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
+  position: absolute;
+  margin: 25%;
+  margin-top: 12%;
+  border-radius: 15px;
+  width: 1000px;
+  height: 400px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+}
+
+.video-fg {
+  width: fit-content;
+  margin-top: 5%;
+  width: 500px;
+  height: 300px;
+}
+
+.bg-encontre {
+  background-color: #ffffff;
+  margin-top: 0%;
+  height: 800px;
+}
+
+.h1-encontre {
+  font-family: sans-serif;
+  margin: 5%;
+  font-size: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card {
+  background-color: #0000006b;
+  display: grid;
+  color: #ffffff;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 2px;
+  width: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.card:hover {
+  background-color: #000000;
+  transition: 0.2s;
+}
+
+.card2 {
+  background-color: #ffffff6b;
+  display: grid;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding-bottom: 2px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+#car-simples {
+  width: 95px;
+}
+
+.gradient-rb2 {
+  background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
+  position: absolute;
+  margin-top: 12%;
+  width: 100%;
+  height: 500px;
+
+}
+
+#h1-ofertas {
+  position: absolute;
+  text-align: left;
+  margin-top: 25%;
+  margin-left: 50%;
+  color: white;
+  font-size: 27px;
+  font-family: sans-serif;
+}
+
+#h1-ofertas-btn {
+  position: absolute;
+  text-align: left;
+  margin-top: 28%;
+  margin-left: 50%;
+  padding: 8px;
+  color: #ffffff83;
+  font-family: sans-serif;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#h1-ofertas-btn2 {
+  position: absolute;
+  text-align: left;
+  margin-top: 28%;
+  margin-left: 71.5%;
+  padding: 8px;
+  color: #ffffff;
+  font-family: sans-serif;
+  background-color: rgb(29, 192, 91);
+  border-radius: 20px;
+}
+
+.img-email {
+  position: absolute;
+  width: 15%;
+  margin-top: 22%;
+  margin-left: 20%;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
+   color: white; 
+   text-align: left; 
+   padding: 55px;
+   position: absolute;
+   margin-top: 36.2%;
+   width: 95.2%;
+   font-family: sans-serif;
+   
+}
+
+footer a {
+  text-decoration: none;
+  color: #7e7777af;
+  gap: 90px;
+  display: flex;
+
+  
+}
+
+footer a:hover {
+  color: red;
+  transition: 0.2s;
+}
+
+/* Botao de email */
+.botao{
+  font-size: larger;
+  border-radius: 20px;
+  background-color: white;
+  transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+  background-color: rgb(17, 17, 18);
+  color: rgb(205, 15, 15);
+  transform: scale(1.2)
+}
+
+.botao{
+  position: absolute;
+  width: 10%;
+  margin-top: 29.7%;
+  margin-left: 70%;
+  padding: 7px;
+}
+
+/* caixade texto email */
+.caixadetexto{
+  position: absolute;
+  margin-top: 28.5%;
+  margin-left: 53%;
+  width: 15%;
+  height:5% ;
+  
+  
+}
+input{
+  width: 100%;
+  height:100% ;
+  border-radius: 20px;
+  padding: 9px 
+}
+
+/* Direitos reservados */
+
+.reserva{
+  position: absolute;
+ 
+  margin-left: 45%;
+  margin-top: -1%;
+
+}
+
+
+
